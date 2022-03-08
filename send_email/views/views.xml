@@ -4,7 +4,7 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="model">res.partner</field>
         <field name="arch" type="xml">
-          <!-- Add a header with button to the existing view -->
+          <!-- Añade un botón en la cabecera de la vista -->
           <xpath expr="//sheet" position="before">
               <header>
                 <button name="send_mail_template" string="Send e-mail" type="object" class="oe_highlight"/>
